@@ -55,43 +55,7 @@ export default class Sidebar extends Component {
               <ul>
                 <li>
                   <a
-                    href="https://www.facebook.com/dhruv.barochia"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-facebook2" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/ddbarochiya"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-twitter2" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/ddbarochiya/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/dhruv-b-545b52a9/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-linkedin2" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/Dhruv34788"
+                    href="https://github.com/kyle-krupp"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -100,11 +64,29 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://medium.com/@dhruv.barochia34788"
+                    href="https://www.linkedin.com/in/kyle-krupp-50649b95?t"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="icon-blogger2" />
+                    <i className="icon-linkedin2" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/kruppofjoe"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="icon-twitter2" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/kruppofjoe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="icon-instagram" />
                   </a>
                 </li>
               </ul>

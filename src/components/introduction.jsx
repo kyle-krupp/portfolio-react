@@ -19,18 +19,18 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>
-                            Hello,
+                            I am a
                             <br />
-                            I'm Kyle
+                            professional
                           </h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing"
+                              href="https://drive.google.com/file/d/1QyFCNxn2My3W2S1xBu9JZwXL55dpib-9/view?usp=sharing"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View CV
+                              Resume
                               <i className="icon-download4" />
                             </a>
                           </p>
@@ -48,13 +48,13 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I love building
-                            <br /> THINGS !!
+                            I am a
+                            <br /> builder
                           </h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://github.com/Dhruv34788"
+                              href="https://github.com/kyle-krupp"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -75,8 +75,8 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I often <br />
-                            Write ...{" "}
+                            I am a <br />
+                            learner{" "}
                           </h1>
                           <p>
                             <a
