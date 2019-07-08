@@ -48,13 +48,13 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                   <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-html-five2" />
                   </span>
                   <div className="desc">
                     <h3>Web Development </h3>
                     <p>
-                      I have experience building websites and chrome extentions
-                      using JavaScript,React,HTML,CSS
+                      I have experience building progressive web apps using the
+                      MongoDB - Express - React - Node (MERN) stack.
                     </p>
                   </div>
                 </div>
@@ -62,13 +62,14 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                   <span className="icon">
-                    <i className="icon-phone3" />
+                    <i className="icon-wordpress" />
                   </span>
                   <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
+                    <h3>Content Management Systems</h3>
                     <p>
-                      As coming from the CS background, I have good grasp over
-                      fundamental concepts of DSA
+                      I have freelanced and delivered simple, elegant websites
+                      designed to updated & maintained by clients with
+                      Squarespace.
                     </p>
                   </div>
                 </div>
@@ -79,49 +80,14 @@ export default class About extends Component {
                     <i className="icon-data" />
                   </span>
                   <div className="desc">
-                    <h3>Dev Ops</h3>
+                    <h3>Software-as-a-Service</h3>
                     <p>
-                      I am pursuing my internship with DevOps team at Juniper
-                      and working with tools like Jenkins, Docker, K8s
+                      I have years of experience project managing for a data
+                      visualization SaaS platform.
                     </p>
                   </div>
                 </div>
               </div>
-              {/*
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
-                </div>
-                </div>
-            </div>
-            */}
             </div>
           </div>
         </section>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Timeline extends Component {
   render() {
@@ -7,7 +7,10 @@ export default class Timeline extends Component {
         <section className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <div
+                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
                 <span className="heading-meta">highlights</span>
                 <h2 className="colorlib-heading animate-box">Timeline</h2>
               </div>
@@ -15,43 +18,90 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                      <div className="timeline-icon color-1">
+                        <i className="icon-chart-bar-outline" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Internship at Juniper <span>2019-present</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
+                        <h2>
+                          Technical Project Manager at Dapresy North America,
+                          Inc. <span> Dec 2017 - Present</span>
+                        </h2>
+                        <p>
+                          I've worked as a project manager for deploying online
+                          dashboards with cutting edge visualizations for market
+                          research data. In addition I coordinate resources &
+                          facilitate discussions centered around everything from
+                          authentication methods to custom code development. I
+                          am a student at heart and have tought myself how to
+                          build resuable web design themes on our platform using
+                          jQuery and CSS.
+                        </p>
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInTop"
+                  >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
+                        <i className="icon-code" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Undergraduation at DAIICT<span>2015-2019</span></h2>
-                        <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of these subjects.I have also been part of S.B.G.(Student Body Govenance) scince my first year of college.</p>
+                        <h2>
+                          Full-Stack Web Development Student
+                          <span> June 2018 - Dec 2018</span>
+                        </h2>
+                        <p>
+                          I completed a 6 - month coding bootcamp through the
+                          University of New Hampshire. The program was a
+                          rigorous but valuable experience as it focused on
+                          hammering down the essentials, to becoming proficient
+                          in modern web development technologies. A group
+                          project was developed in a scrum like environment
+                          after each progressive milestone. Some of my favorites
+                          are included on this site!
+                        </p>
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
+                      <div className="timeline-icon color-1">
+                        <i className="icon-chart-line" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                        <h2>
+                          Data Visualization Manager{" "}
+                          <span> June 2017 - Dec 2018</span>
+                        </h2>
+                        <p>
+                          Integrated datasets via various data sources such as
+                          third party API's. Wireframed and scoped dashboard
+                          development lifecycles with user stories. Impelmented
+                          graphic designs into live data visualizations. Worked
+                          with front-end developers on custom script
+                          requirements and application. Managed user
+                          authentication and distribution for both small and
+                          large corporations.
+                        </p>
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                  <article
+                    className="timeline-entry begin animate-box"
+                    data-animate-effect="fadeInBottom"
+                  >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
-                      </div>
+                      <div className="timeline-icon color-none" />
                     </div>
                   </article>
                 </div>
@@ -60,6 +110,6 @@ export default class Timeline extends Component {
           </div>
         </section>
       </div>
-    )
+    );
   }
 }
