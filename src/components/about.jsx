@@ -40,7 +40,7 @@ export default class About extends Component {
               >
                 <span className="heading-meta">What I do?</span>
                 <h2 className="colorlib-heading">
-                  Here are some of my expertise
+                  Here is some of my expertise
                 </h2>
               </div>
             </div>

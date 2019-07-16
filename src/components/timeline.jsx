@@ -24,11 +24,11 @@ export default class Timeline extends Component {
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
-                        <i className="icon-chart-bar-outline" />
+                        <i className="icon-chart-line" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Technical Project Manager at Dapresy North America,
+                          Technical Project Manager - Dapresy North America,
                           Inc. <span> Dec 2017 - Present</span>
                         </h2>
                         <p>
@@ -80,7 +80,8 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Data Visualization Manager{" "}
+                          Data Visualization Manager - Dapresy North America,
+                          Inc.
                           <span> June 2017 - Dec 2018</span>
                         </h2>
                         <p>

@@ -48,6 +48,11 @@ export default class Sidebar extends Component {
                       Timeline
                     </a>
                   </li>
+                  <li>
+                    <a href="#projects" data-nav-section="projects">
+                      Projects
+                    </a>
+                  </li>
                 </ul>
               </div>
             </nav>
@@ -91,7 +96,7 @@ export default class Sidebar extends Component {
                 </li>
               </ul>
             </nav>
-            <div className="colorlib-footer">
+            {/*<div className="colorlib-footer">
               <p>
                 <small>
                   Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
@@ -111,7 +116,7 @@ export default class Sidebar extends Component {
               <p>
                 <small>Something coming soon !!</small>
               </p>
-            </div>
+                </div>*/}
           </aside>
         </div>
       </div>
