@@ -14,90 +14,89 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/connect.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 01</a></h3>
-											<span>Website</span>
+											<h3><a href="http://developerconnectorapp.herokuapp.com/" target="_blank">Dev Connect</a></h3>
+											<span>A small social network platform for developer collaboration & networking. <br>
+											</br>Stack: React, Express, Node, MongoDB</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="http://developerconnectorapp.herokuapp.com/" target="_blank"><i className="icon-link" /> Live Link</a></span>
+												<span><a href="https://github.com/kyle-krupp/devconnector" target="_blank"><i className="icon-github" /> Source</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/xray.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 02</a></h3>
-											<span>Animation</span>
+											<h3><a href="https://rccxrayclub.squarespace.com/" target ='_blank'></a>RCC X-Ray Club</h3>
+											<span>Calendar site built for the Roxbury Community College X-Ray Club. This site serves as a central inforation reSource for upcoming events
+												and important documents. Built with Squarespace and maintained by the club members! </span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="https://rccxrayclub.squarespace.com/" target ='_blank'><i className="icon-link" /> Live Link</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/bukitlogo.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
-											<span>Illustration</span>
+											<h3><a href="https://bukitlist.herokuapp.com/" target='_blank'>Bukit</a></h3>
+											<span>A travel app for taking notes and fetching real time data on your locations. Architected the authentication and database strategy for a final group project. <br>
+											</br>Stack: React, Express, Node, MongoDB</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="https://bukitlist.herokuapp.com/" target='_blank'><i className="icon-link" /> Live Link</a></span>
+												<span><a href="https://github.com/kyle-krupp/Bukit" target='_blank'><i className="icon-github" /> Source</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/tappylogo.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 04</a></h3>
-											<span>Application</span>
+											<h3><a href="https://tranquil-fjord-50136.herokuapp.com/" target='_blank'>Tappy Hour</a></h3>
+											<span>A Happy Hour web app for businesses to sign up and consumers to stay up-to-date on the latest deals in your area!
+												<br></br>Stack: Node, Express, MySQL, Handlebars, jQuery</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="https://tranquil-fjord-50136.herokuapp.com/" target='_blank'><i className="icon-link" /> Live LInk</a> </span>
+												<span><a href="https://github.com/kyle-krupp/project-2" target='_blank'><i className="icon-github" /> Source</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/logo_blue.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 05</a></h3>
-											<span>Graphic, Logo</span>
+										<h3><a href="https://andreweharding.github.io/Pu-Revu/" target='_blank'>Pu ReVu </a></h3>
+											<span>A bathroom geolocater and review site + some in-app entertainment
+												<br></br>Stack: jQuery, Firebase</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="https://andreweharding.github.io/Pu-Revu/" target='_blank'><i className="icon-link" /> Live Link</a> </span>
+												<span><a href="https://github.com/kyle-krupp/Pu-Revu" target='_blank'><i className="icon-github" /> Source</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/train.gif)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 06</a></h3>
-											<span>Web Design</span>
+										<h3><a href="https://kyle-krupp.github.io/TrainSchedule/" target='_blank'>Train Scheduler </a></h3>
+											<span>Schedule your trip to Hogwarts with this scheduling app!
+												<br></br> jQuery, Moment JS, Firebase</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="https://kyle-krupp.github.io/TrainSchedule/" target='_blank'><i className="icon-link" /> Live Link</a> </span>
+												<span><a href="https://github.com/kyle-krupp/TrainSchedule" target='_blank'><i className="icon-github" /> Source</a></span>
 											</p>
 										</div>
 									</div>
