@@ -16,11 +16,15 @@ export default class About extends Component {
                     <div className="about-desc">
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
-                      <p>Full-Stack Web Developer. </p>
+                      <p>Web Developer living in Portsmouth, NH. </p>
                       <p>
-                        Mostly a curious learner with an affinity for modern web
-                        development technologies and methods.{" "}
+                        Full-Stack JavaScript development. Currently working in
+                        front-end development for{" "}
+                        <a href="https://www.dapresy.com/" target="_blank">
+                          Dapresy.
+                        </a>
                       </p>
+                      <p>Freelance WordPress developer.</p>
                     </div>
                   </div>
                 </div>
@@ -46,7 +50,7 @@ export default class About extends Component {
                     <i className="fas fa-layer-group" />
                   </span>
                   <div className="desc">
-                    <h3>My stack </h3>
+                    <h3>Progressive Web Apps </h3>
                     <ul class="fa-ul">
                       <li>
                         <span class="fa-li">
@@ -82,7 +86,7 @@ export default class About extends Component {
                     <i className="fas fa-code" />
                   </span>
                   <div className="desc">
-                    <h3>Skills</h3>
+                    <h3>Technical Skills</h3>
                     <ul class="fa-ul">
                       <li>
                         <span class="fa-li">
@@ -122,27 +126,27 @@ export default class About extends Component {
                     <ul class="fa-ul">
                       <li>
                         <span class="fa-li">
-                          <i class="fas fa-pen-nib"></i>
-                        </span>
-                        Elegent designs
-                      </li>
-                      <li>
-                        <span class="fa-li">
-                          <i class="fas fa-clone"></i>
-                        </span>
-                        Modern themes
-                      </li>
-                      <li>
-                        <span class="fa-li">
                           <i class="fas fa-network-wired"></i>
                         </span>
-                        Hosting solutions
+                        Website hosting & setup
+                      </li>
+                      <li>
+                        <span class="fa-li">
+                          <i class="fas fa-pen-nib"></i>
+                        </span>
+                        Wireframe & design
+                      </li>
+                      <li>
+                        <span class="fa-li">
+                          <i class="fas fa-code"></i>
+                        </span>
+                        Development
                       </li>
                       <li>
                         <span class="fa-li">
                           <i class="fas fa-user-tie"></i>
                         </span>
-                        Businesses large & small
+                        Training & Maintenance
                       </li>
                     </ul>
                   </div>

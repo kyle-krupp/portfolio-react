@@ -23,13 +23,41 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-code" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Frontend Developer <span> Sep 2019 - Present</span>
+                        </h2>
+                        <p>
+                          Working on the global webdesign team for a
+                          React/GraphQL frontend based SaaS platform. Custom web
+                          development for client-specific needs. Creating style
+                          themes, jQuery/JavaScript plugins, authentication
+                          customization.
+                        </p>
+                        <p>
+                          Development and maintenance of{" "}
+                          <a href="https://www.dapresy.com/" target="_blank">
+                            Dapresy.com
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-chart-line" />
                       </div>
                       <div className="timeline-label">
                         <h2>
                           Technical Project Manager - Dapresy North America,
-                          Inc. <span> Dec 2017 - Present</span>
+                          Inc. <span> Dec 2017 - Aug 2018</span>
                         </h2>
                         <p>
                           I've worked as a project manager for deploying online
@@ -44,6 +72,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+
                   <article
                     className="timeline-entry animate-box"
                     data-animate-effect="fadeInTop"
