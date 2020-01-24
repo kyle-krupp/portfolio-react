@@ -20,6 +20,51 @@ export default class Projects extends Component {
             <div className="row">
               <div
                 className="col-md-4 animate-box"
+                data-animate-effect="fadeInTop"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/sushi.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a
+                          href="https://sushi-sunday.firebaseapp.com/"
+                          target="_blank"
+                        >
+                          Sushi Sunday!
+                        </a>
+                      </h3>
+                      <span>
+                        My favorite food is Sushi, why not demonstrate the power
+                        of React state management with a quick web app?{" "}
+                        <br></br>Stack: React, Rebase, Firebase Realtime DB
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://sushi-sunday.firebaseapp.com/"
+                            target="_blank"
+                          >
+                            <i className="icon-link" /> Live Link
+                          </a>
+                        </span>
+                        <span>
+                          <a
+                            href="https://github.com/kyle-krupp/sushi-market"
+                            target="_blank"
+                          >
+                            <i className="icon-github" /> Source
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
                 data-animate-effect="fadeInRight"
               >
                 <div
