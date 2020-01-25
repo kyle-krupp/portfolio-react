@@ -5,15 +5,20 @@ import About from "./components/about";
 import Timeline from "./components/timeline";
 import Projects from "./components/projects";
 import projects from "./projectLibrary";
+import skills from "./skillsLibrary";
+import Skills from "./components/skills";
+import backendSkills from "./backendSkillsLibrary";
+import BackendSkills from "./components/backendSkills";
 
 class App extends Component {
   state = {
-    projects: {}
+    projects: {},
+    skills: {},
+    backendSkills: {}
   };
 
   componentDidMount() {
-    this.setState({ projects });
-    console.log("mounted");
+    this.setState({ projects, skills, backendSkills });
   }
 
   render() {
@@ -23,6 +28,22 @@ class App extends Component {
           <Sidebar />
           <div id="colorlib-main">
             <About />
+
+            <div className="skill-cards">
+              {Object.keys(this.state.skills).map(key => (
+                <Skills info={this.state.skills[key]} key={key} index={key} />
+              ))}
+            </div>
+            <div className="skill-cards">
+              {Object.keys(this.state.backendSkills).map(key => (
+                <BackendSkills
+                  info={this.state.backendSkills[key]}
+                  key={key}
+                  index={key}
+                />
+              ))}
+            </div>
+
             <Timeline />
 
             <div>

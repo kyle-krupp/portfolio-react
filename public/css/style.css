@@ -2049,3 +2049,69 @@ body.offcanvas .colorlib-nav-toggle {
 .fas .fa-layer-group {
   color: blue;
 }
+
+.code-logo {
+  height: 80px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.skill-card {
+  border-radius: 2px;
+
+  padding: 1rem;
+
+  padding-top: 1rem;
+
+  padding-top: 1rem;
+
+  text-align: center;
+
+  padding-top: 3rem;
+
+  position: relative;
+
+  transform-origin: top center;
+
+  --rotate: 10deg;
+
+  /*transform: rotateX(var(--rotate));*/
+
+  transition: transform 0.2s;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-cards {
+  display: grid;
+
+  grid-column: 1/-1;
+
+  -ms-grid-columns: (minmax(100px, 1fr)) [auto-fit];
+
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+  background: #fff;
+
+  grid-gap: 2rem;
+
+  padding: 2rem;
+
+  perspective: 1000px;
+}
+
+.skill-card:hover {
+  transform: rotateX(3deg) rotateY(15deg);
+}
+
+.skill-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+.typewriter {
+  font-size: 20px;
+}
