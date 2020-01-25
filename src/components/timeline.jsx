@@ -28,20 +28,25 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Frontend Developer <span> Sep 2019 - Present</span>
+                          Frontend Developer <span> Sep 2019 - Jan 2020</span>
                         </h2>
                         <p>
-                          Working on the global webdesign team for a
-                          React/GraphQL frontend based SaaS platform. Custom web
-                          development for client-specific needs. Creating style
-                          themes, jQuery/JavaScript plugins, authentication
-                          customization.
+                          Worked on the global webdesign team for a
+                          ASP.NET/React SaaS platform.
                         </p>
                         <p>
-                          Development and maintenance of{" "}
-                          <a href="https://www.dapresy.com/" target="_blank">
+                          Created custom scripts using Vanilla JS/jQuery for
+                          advanced solutions on a client-need basis. Developed
+                          custom authentication views, and webdesign theming for
+                          online dashboards.
+                        </p>
+
+                        <p>
+                          Architected the rebranded development of{" "}
+                          <a href="dapresy.com" target="_blank">
                             Dapresy.com
-                          </a>
+                          </a>{" "}
+                          for a go-to-market product launch.
                         </p>
                       </div>
                     </div>
