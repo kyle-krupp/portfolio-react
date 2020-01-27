@@ -12,8 +12,8 @@ const projects = {
     image: "/images/connect.png",
     desc:
       "A small social network platform for developer collaboration & networking.",
-    demo: "https://sushi-sunday.firebaseapp.com/",
-    repo: "https://github.com/kyle-krupp/sushi-market",
+    demo: "http://developerconnectorapp.herokuapp.com/",
+    repo: "https://github.com/kyle-krupp/devconnector",
     stack: "React + Redux, Express (REST), Node, Bootstrap"
   },
   liri: {
