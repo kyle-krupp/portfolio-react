@@ -20,10 +20,14 @@ export default class About extends Component {
                       <span className="typewriter">
                         <strong>
                           {" "}
-                          I make execellent, modern{" "}
+                          I make excellent,{" "}
                           <Typewriter
                             options={{
-                              strings: ["web apps", "websites"],
+                              strings: [
+                                "modern websites",
+                                "full-stack applications",
+                                "things that interest me"
+                              ],
                               autoStart: true,
                               loop: true
                             }}

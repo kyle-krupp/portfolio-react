@@ -65,14 +65,20 @@ export default class Timeline extends Component {
                           Inc. <span> Dec 2017 - Aug 2018</span>
                         </h2>
                         <p>
-                          I've worked as a project manager for deploying online
-                          dashboards with cutting edge visualizations for market
-                          research data. In addition I coordinate resources &
-                          facilitate discussions centered around everything from
-                          authentication methods to custom code development. I
-                          am a student at heart and have tought myself how to
-                          build resuable web design themes on our platform using
-                          jQuery and CSS.
+                          <ul>
+                            <li>
+                              Served as the liaison between clients and a
+                              product
+                            </li>
+                            <li>
+                              Coordinated technical discussions for customized
+                              SSO and API integrations
+                            </li>
+                            <li>
+                              Scoped requirements needed for front-end and
+                              back-end code
+                            </li>
+                          </ul>
                         </p>
                       </div>
                     </div>
@@ -92,14 +98,23 @@ export default class Timeline extends Component {
                           <span> June 2018 - Dec 2018</span>
                         </h2>
                         <p>
-                          I completed a 6 - month coding bootcamp through the
-                          University of New Hampshire. The program was a
-                          rigorous but valuable experience as it focused on
-                          hammering down the essentials, to becoming proficient
-                          in modern web development technologies. A group
-                          project was developed in a scrum like environment
-                          after each progressive milestone. Some of my favorites
-                          are included on this site!
+                          <ul>
+                            <li>
+                              Six-month coding bootcamp for full-stack web
+                              development, culminating in a proficiency with
+                              both front-end and server-side JavaScript using
+                              the MERN stack
+                            </li>
+                            <li>
+                              Core competencies: JavaScript (Node.js, React),
+                              MySQL + MongoDB administration, creating API’s
+                              using Express
+                            </li>
+                            <li>
+                              Fundamental competencies: C#, Django, Java,
+                              Laravel
+                            </li>
+                          </ul>
                         </p>
                       </div>
                     </div>
@@ -119,14 +134,19 @@ export default class Timeline extends Component {
                           <span> June 2017 - Dec 2018</span>
                         </h2>
                         <p>
-                          Integrated datasets via various data sources such as
-                          third party API's. Wireframed and scoped dashboard
-                          development lifecycles with user stories. Impelmented
-                          graphic designs into live data visualizations. Worked
-                          with front-end developers on custom script
-                          requirements and application. Managed user
-                          authentication and distribution for both small and
-                          large corporations.
+                          <ul>
+                            <li>
+                              Wireframed and scoped project delivery converting
+                              raw datasets into online dashboards using a
+                              proprietary SaaS dashboarding platform
+                            </li>
+                            <li>
+                              Used system expertise to build and deploy online
+                              data visualization dashboards to thousands of end
+                              users for market research agencies and large
+                              corporations
+                            </li>
+                          </ul>
                         </p>
                       </div>
                     </div>

@@ -19,9 +19,11 @@ export default class Projects extends Component {
               <span>Stack: {stack}</span>
               <p className="icon">
                 <span>
-                  <a href={demo} target="_blank">
-                    <i className="icon-link" /> Demo
-                  </a>
+                  {demo ? (
+                    <a href={demo} target="_blank">
+                      <i className="icon-link" /> Demo
+                    </a>
+                  ) : null}
                 </span>
                 <span>
                   {repo ? (

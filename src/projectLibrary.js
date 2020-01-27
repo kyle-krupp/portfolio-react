@@ -1,12 +1,11 @@
 const projects = {
-  project1: {
-    name: "Sushi Sunday!",
-    image: "/images/sushi.png",
+  springbootdemo: {
+    name: "Spring Boot Demo",
+    image: "/images/spring-boot-logo.png",
     desc:
-      "My favorite food is Sushi, why not demonstrate the power of React state management with a quick web app?",
-    demo: "https://sushi-sunday.firebaseapp.com/",
-    repo: "https://github.com/kyle-krupp/sushi-market",
-    stack: "React, Rebase, Firebase Realtime DB"
+      "A simple REST API following an MVC paradigm when demoing the Java Spring Boot framework.",
+    repo: "https://github.com/kyle-krupp/spring-boot-demo",
+    stack: "Java(Spring Boot 2.0), Postgres, Docker"
   },
   project2: {
     name: "Dev Connect",
@@ -17,13 +16,30 @@ const projects = {
     repo: "https://github.com/kyle-krupp/sushi-market",
     stack: "React + Redux, Express (REST), Node, Bootstrap"
   },
+  liri: {
+    name: "Liri",
+    image: "/images/siri.png",
+    desc: "A Node JS CLI app that replicates features of Siri",
+    repo: "https://github.com/kyle-krupp/liri-node-app",
+    stack: "Node JS "
+  },
+  sushi: {
+    name: "Sushi Sunday!",
+    image: "/images/sushi.png",
+    desc:
+      "My favorite food is Sushi, why not demonstrate the power of React state management with a quick web app?",
+    demo: "https://sushi-sunday.firebaseapp.com/",
+    repo: "https://github.com/kyle-krupp/sushi-market",
+    stack: "React, Rebase, Firebase Realtime DB"
+  },
+
   project3: {
-    name: "Calendar App",
-    image: "/images/calendar.gif",
-    desc: "Quick calendar app created while learning the Vue stack ",
-    demo: "https://vue-cal-423e2.firebaseapp.com/",
-    repo: "https://github.com/kyle-krupp/vue-calendar",
-    stack: "Vue, Vuetify, Firebase "
+    name: "Bamazon",
+    image: "/images/amazon.png",
+    desc:
+      "A Node JS CLI app for managing inventory in an Amazon-like storefront",
+    repo: "https://github.com/kyle-krupp/bamazon",
+    stack: "Node JS, MySQL"
   },
   project4: {
     name: "Dapresy",
@@ -39,13 +55,6 @@ const projects = {
     desc: "Schedule your trip to Hogwarts with this scheduling app!",
     demo: "https://dapresy.com/",
     stack: "jQuery, Moment JS, Firebase Realtime DB "
-  },
-  project6: {
-    name: "Pu Revu",
-    image: "/images/logo_blue.png",
-    desc: "Schedule your trip to Hogwarts with this scheduling app!",
-    demo: "https://dapresy.com/",
-    stack: "jQuery, Materialize, Firebase Realtime DB "
   }
 };
 
