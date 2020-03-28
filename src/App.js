@@ -9,16 +9,18 @@ import skills from "./skillsLibrary";
 import Skills from "./components/skills";
 import backendSkills from "./backendSkillsLibrary";
 import BackendSkills from "./components/backendSkills";
+import jobs from "./timelineLibrary";
 
 class App extends Component {
   state = {
     projects: {},
     skills: {},
-    backendSkills: {}
+    backendSkills: {},
+    jobs: {}
   };
 
   componentDidMount() {
-    this.setState({ projects, skills, backendSkills });
+    this.setState({ projects, skills, backendSkills, jobs });
   }
 
   render() {
@@ -44,7 +46,28 @@ class App extends Component {
               ))}
             </div>
 
-            <Timeline />
+            <div>
+              <section className="colorlib-experience" data-section="timeline">
+                <div className="colorlib-narrow-content">
+                  <div className="row">
+                    <div
+                      className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <span className="heading-meta">highlights</span>
+                      <h2 className="colorlib-heading animate-box">Timeline</h2>
+                    </div>
+                  </div>
+                  {Object.keys(this.state.jobs).map(key => (
+                    <Timeline
+                      details={this.state.jobs[key]}
+                      key={key}
+                      index={key}
+                    />
+                  ))}
+                </div>
+              </section>
+            </div>
 
             <div>
               <section className="colorlib-work" data-section="projects">
