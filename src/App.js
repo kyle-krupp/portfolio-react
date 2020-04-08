@@ -16,7 +16,7 @@ class App extends Component {
     projects: {},
     skills: {},
     backendSkills: {},
-    jobs: {}
+    jobs: {},
   };
 
   componentDidMount() {
@@ -32,12 +32,12 @@ class App extends Component {
             <About />
 
             <div className="skill-cards">
-              {Object.keys(this.state.skills).map(key => (
+              {Object.keys(this.state.skills).map((key) => (
                 <Skills info={this.state.skills[key]} key={key} index={key} />
               ))}
             </div>
             <div className="skill-cards">
-              {Object.keys(this.state.backendSkills).map(key => (
+              {Object.keys(this.state.backendSkills).map((key) => (
                 <BackendSkills
                   info={this.state.backendSkills[key]}
                   key={key}
@@ -58,9 +58,10 @@ class App extends Component {
                       <h2 className="colorlib-heading animate-box">Timeline</h2>
                     </div>
                   </div>
-                  {Object.keys(this.state.jobs).map(key => (
+                  {Object.keys(this.state.jobs).map((key) => (
                     <Timeline
                       details={this.state.jobs[key]}
+                      skills={this.state.skills}
                       key={key}
                       index={key}
                     />
@@ -84,7 +85,7 @@ class App extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    {Object.keys(this.state.projects).map(key => (
+                    {Object.keys(this.state.projects).map((key) => (
                       <Projects
                         details={this.state.projects[key]}
                         key={key}
