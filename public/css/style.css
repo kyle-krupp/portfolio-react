@@ -115,7 +115,11 @@ figure figcaption {
   position: fixed;
   overflow: scroll;
   z-index: 1001;
-  background: #000;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) -13%,
+    rgba(252, 146, 70, 0.9976365546218487) 57%
+  );
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -220,7 +224,7 @@ figure figcaption {
   bottom: 7px;
   left: 0;
   right: 0;
-  background-color: #2c98f0;
+  background-color: rebeccapurple;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -236,7 +240,7 @@ figure figcaption {
 
 #colorlib-aside #colorlib-main-menu ul li a:hover {
   text-decoration: none;
-  color: #2c98f0;
+  color: rebeccapurple;
 }
 
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
@@ -249,7 +253,7 @@ figure figcaption {
 }
 
 #colorlib-aside #colorlib-main-menu ul li.active a {
-  color: #2c98f0;
+  color: rebeccapurple;
 }
 
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
@@ -303,7 +307,7 @@ figure figcaption {
 #colorlib-aside .colorlib-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #2c98f0;
+  color: rebeccapurple;
 }
 
 .container-wrap {
@@ -386,7 +390,7 @@ figure figcaption {
 #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
   background: transparent;
-  border: 2px solid #2c98f0;
+  border: 2px solid rebeccapurple;
 }
 
 #colorlib-hero .flexslider .flex-direction-nav {
