@@ -1,3 +1,10 @@
+import React from "react";
+
+var hotText = "MDN";
+var URL = "https://developer.mozilla.org/";
+
+var link = hotText.link(URL);
+
 const jobs = {
   job5: {
     title: "Associate Software Engineer",
@@ -51,7 +58,7 @@ const jobs = {
     ASP.NET/React SaaS platform.  Created custom scripts using Vanilla JS/jQuery for
     advanced solutions on a client-need basis. Developed
     custom authentication views, and webdesign theming for
-    online dashboards. Architected the rebranded development of for a go-to-market product launch`,
+  online dashboards. Architected the rebranded development of the external facing website for a go-to-market product launch`,
     timeline: "Sep 2019 - Jan 2020",
     skills: {
       jquery: {
