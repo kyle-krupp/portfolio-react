@@ -18,7 +18,7 @@
 * ======================================================= */
 
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -57,7 +57,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -74,7 +74,7 @@ figure figcaption {
   margin: 20px auto 0px auto;
   color: #b3b3b3;
   font-style: italic;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 @media screen and (max-width: 480px) {
@@ -211,7 +211,7 @@ figure figcaption {
   text-decoration: none;
   position: relative;
   padding: 10px 0;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -444,7 +444,7 @@ figure figcaption {
   line-height: 1.5;
   margin-bottom: 30px;
   font-weight: 300;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
@@ -655,7 +655,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   background-color: #2c98f0;
   color: #fff;
   position: relative;
@@ -841,7 +841,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 500;
 }
 
@@ -885,7 +885,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .services h3 {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
@@ -1052,7 +1052,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .progress-wrap h3 {
   font-size: 16px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   margin-bottom: 10px;
 }
 
@@ -1287,7 +1287,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 .blog-entry .desc h3 a {
@@ -1399,7 +1399,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project .desc h3 {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1525,7 +1525,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 40px;
   display: block;
   color: white;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   width: 100%;
   font-weight: 700;
   margin-bottom: 0.3em;
@@ -1658,7 +1658,7 @@ body.offcanvas .colorlib-nav-toggle {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -2113,7 +2113,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 .typewriter {
