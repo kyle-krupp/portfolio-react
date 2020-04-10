@@ -61,6 +61,13 @@ const jobs = {
         height: "10%",
         color: "blue",
       },
+      css: {
+        name: "css",
+        src: "/images/css3.svg",
+        width: "10%",
+        height: "10%",
+        color: "blue",
+      },
       sass: {
         name: "sass",
         src: "/images/sass.svg",
@@ -118,6 +125,13 @@ const jobs = {
         width: "10%",
         height: "10%",
         color: "green",
+      },
+      mysql: {
+        name: "mysql",
+        src: "/images/mysql.svg",
+        width: "10%",
+        height: "10%",
+        color: "orange",
       },
     },
   },
