@@ -2080,6 +2080,8 @@ body.offcanvas .colorlib-nav-toggle {
   transition: transform 0.2s;
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  background: #fff;
 }
 
 .skill-cards {
@@ -2090,8 +2092,6 @@ body.offcanvas .colorlib-nav-toggle {
   -ms-grid-columns: (minmax(100px, 1fr)) [auto-fit];
 
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-
-  background: #fff;
 
   grid-gap: 2rem;
 

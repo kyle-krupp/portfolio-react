@@ -30,22 +30,6 @@ class App extends Component {
           <Sidebar />
           <div id="colorlib-main">
             <About />
-
-            <div className="skill-cards">
-              {Object.keys(this.state.skills).map((key) => (
-                <Skills info={this.state.skills[key]} key={key} index={key} />
-              ))}
-            </div>
-            <div className="skill-cards">
-              {Object.keys(this.state.backendSkills).map((key) => (
-                <BackendSkills
-                  info={this.state.backendSkills[key]}
-                  key={key}
-                  index={key}
-                />
-              ))}
-            </div>
-
             <div>
               <section className="colorlib-experience" data-section="timeline">
                 <div className="colorlib-narrow-content">
@@ -54,14 +38,15 @@ class App extends Component {
                       className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                       data-animate-effect="fadeInLeft"
                     >
-                      <span className="heading-meta">highlights</span>
+                      <span className="heading-meta">
+                        Here's an overview of what I've used
+                      </span>
                       <h2 className="colorlib-heading animate-box">Timeline</h2>
                     </div>
                   </div>
                   {Object.keys(this.state.jobs).map((key) => (
                     <Timeline
                       details={this.state.jobs[key]}
-                      skills={this.state.skills}
                       key={key}
                       index={key}
                     />
