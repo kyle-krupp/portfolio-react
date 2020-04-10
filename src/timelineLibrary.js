@@ -1,10 +1,3 @@
-import React from "react";
-
-var hotText = "MDN";
-var URL = "https://developer.mozilla.org/";
-
-var link = hotText.link(URL);
-
 const jobs = {
   job5: {
     title: "Associate Software Engineer",
