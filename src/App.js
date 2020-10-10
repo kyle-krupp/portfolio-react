@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar";
-import About from "./components/about";
 import Timeline from "./components/timeline";
 import Projects from "./components/projects";
 import projects from "./projectLibrary";
 import skills from "./skillsLibrary";
-import Skills from "./components/skills";
 import backendSkills from "./backendSkillsLibrary";
-import BackendSkills from "./components/backendSkills";
 import jobs from "./timelineLibrary";
 
 class App extends Component {
@@ -29,7 +26,6 @@ class App extends Component {
         <div id="container-wrap">
           <Sidebar />
           <div id="colorlib-main">
-            <About />
             <div>
               <section className="colorlib-experience" data-section="timeline">
                 <div className="colorlib-narrow-content">
@@ -38,9 +34,6 @@ class App extends Component {
                       className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                       data-animate-effect="fadeInLeft"
                     >
-                      <span className="heading-meta">
-                        Here's an overview of what I've used
-                      </span>
                       <h2 className="colorlib-heading animate-box">Timeline</h2>
                     </div>
                   </div>

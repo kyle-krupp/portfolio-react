@@ -27,13 +27,6 @@ const jobs = {
         height: "10%",
         color: "green",
       },
-      docker: {
-        name: "docker",
-        src: "/images/docker.png",
-        width: "10%",
-        height: "10%",
-        color: "blue",
-      },
       aws: {
         name: "amazon web services",
         src: "/images/aws.png",

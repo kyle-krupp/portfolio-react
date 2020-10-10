@@ -7,14 +7,6 @@ const projects = {
     demo: "http://clubhouse-prod.eba-mppt2gfx.us-east-1.elasticbeanstalk.com/",
     stack: "Kotlin(Spring Boot 2.0), React PostgreSQL, Docker",
   },
-  springbootdemo: {
-    name: "Spring Boot Demo",
-    image: "/images/spring-boot-logo.png",
-    desc:
-      "A simple REST API following an MVC paradigm when demoing the Java Spring Boot framework.",
-    repo: "https://github.com/kyle-krupp/spring-boot-demo",
-    stack: "Java(Spring Boot 2.0), Postgres, Docker",
-  },
   project2: {
     name: "Dev Connect",
     image: "/images/connect.png",
